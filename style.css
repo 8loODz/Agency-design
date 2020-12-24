@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    background-color: rgba(19, 19, 19, 1);
+    font-size: 11px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yeseva One', cursive;
+}
+
+button {
+    font-family: 'Nunito Sans', italic;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+.logo {
+    color:  rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+    margin-right: 95px;
+
+}
+
+.header-link {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-right: 47px;
+}
+
+.header-link:hover {
+    color: rgba(227, 184, 115, 1);
+}
+
+.header-link.home {
+    margin-right: 67px;
+}
+
+.header-call {
+    color: rgba(227, 184, 115, 1);
+    text-decoration-skip-ink: none;
+}
+
+.header-btn.request {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    color: white;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+section.basic {
+    padding-top: 0px;
+    background-image: url(../img/img/Главное\ меню.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.basic-promo {
+    max-width:1203px;
+    margin: 0 auto;
+}
+
+.basic-promo-heading {
+    margin: 0;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 194px;
+}
+
+.rostov {
+    color: #E3B873;
+}
+
+.basic-promo-paragraph{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.basic-btn.cost {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    color: white;
+    outline: 0;
+    border: 0;
+    padding: 19px 41px;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-right: 20px;
+}
+
+.basic-btn.sunmit {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    color: white;
+    outline: none;
+    padding: 18px 22px;
+    text-transform: uppercase;
+    font-size: 11px;
+
+}
